@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class arrayy {
 
     public static void FindMinAndMax(int[] nums){
@@ -17,7 +19,16 @@ public class arrayy {
         System.out.println("The maximum Element is in the array" +" " + max);
     }
      public static void main(String[] args){
-        int[] nums= {4,5,5,6,9,7,8,4,1,2,6};
+
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the Size of Array");
+        int n=sc.nextInt();
+
+        int nums[]= new int[n];
+        System.out.println(" Enter Elements");
+        for(int i=0;i<n;i++){
+            nums[i]=sc.nextInt();
+        }
         FindMinAndMax(nums);
     }
     
