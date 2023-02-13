@@ -18,7 +18,7 @@ public class palindromeString {
         }
 
         public static void main(String[] args) {
-            String str="talib";
+            String str="hih";
             ispalindrome(str); 
 
         }
