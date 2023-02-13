@@ -9,7 +9,7 @@ class Dog{
     }
 }
 
-public class Oopss {
+public class oopss {
     public static void main(String[] args) {
         
         Dog d1= new Dog();
