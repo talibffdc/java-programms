@@ -13,7 +13,7 @@ public class minandmaxx {
             }
 
         }
-        System.out.println("the max element is " + ""+max);
+        System.out.println("the max element is "+""+max);
     }
     
 }
