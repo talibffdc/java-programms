@@ -7,10 +7,10 @@ public class sortingg{
         }
         System.out.println();
     }
-
+        // Bubble Sort
     public static void main(String[] args) {
         
-        int arr[]= {4,6,5,3,7};
+        int arr[]= {2,4,1,3};
 
         for (int i=0; i<arr.length-1; i++){
             for (int j=0; j<arr.length-i-1; j++){
