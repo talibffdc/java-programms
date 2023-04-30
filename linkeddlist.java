@@ -19,8 +19,18 @@ public class linkeddlist {
 
     head = newNode;
 
-
 }
+
+public void addlast(String data){
+    Node newNode= new Node(data);
+    Node currNode= head;
+    while(currNode.next!=null){
+        currNode=currNode.next;
+
+    }
+    currNode.next=newNode;
+}
+
 
 public void printList() {
 
@@ -35,8 +45,7 @@ public void printList() {
 
     }
 
-
-    System.out.println("null");
+     System.out.println("null");
 
 }
 
@@ -47,6 +56,8 @@ public void printList() {
     list.addFirst("a");
     list.addFirst("cat");
 
+    list.printList();
+    list.addlast("miaun");
     list.printList();
    
    }
